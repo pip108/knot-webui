@@ -1,0 +1,15 @@
+;; Zone dump (Knot DNS 3.1.8)
+test.xyz.           	86400	SOA	test.xyz. hostmaster.test.xyz. 2001063037 21600 3600 604800 86400
+test.xyz.           	0	NS	ns1.test.xyz.
+test.xyz.           	0	NS	ns2.test.xyz.
+atomic.test.xyz.    	1200	A	10.235.238.1
+db1.test.xyz.       	7200	A	192.168.0.111
+kiivi.test.xyz.     	100	TXT	"jeps"
+lab.test.xyz.       	1200	A	127.0.0.1
+lab-alpha.test.xyz. 	1200	A	10.20.0.1
+node.test.xyz.      	1200	A	10.0.0.10
+router.test.xyz.    	86400	A	10.0.0.11
+test.test.xyz.      	3600	TXT	"publickey"
+testi.test.xyz.     	3600	A	1.1.1.1
+;; Written 12 records
+;; Time 2022-07-01 19:28:13 UTC

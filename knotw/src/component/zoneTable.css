@@ -1,0 +1,48 @@
+.row-dirty {
+    background-color: #ff7a4599;
+}
+
+input  {
+    color: #111111;
+    max-width: 10em;
+}
+
+table.type-filter {
+  width: 150px;
+  line-height: 1.8em;
+}
+
+table.type-filter td {
+    border-bottom: 1px solid #ffffff20;
+}
+
+table.type-filter, table.type-filter td, table.type-filter tr {
+    border-collapse: unset;
+}
+
+input.ant-input {
+    max-width: 100%;
+}
+
+.zone-table ::-webkit-scrollbar {
+    background-color: #ffffff30;
+}
+.zone-table ::-webkit-scrollbar-button {
+    background-color: #ffffff40;
+}
+.zone-table ::-webkit-scrollbar-thumb {
+    background-color: #ffffff40;
+}
+
+.row-actions {
+   display: inline-flex;
+   width: 100%;
+   text-align: center;
+}
+
+.row-actions div {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    text-align: center;
+}

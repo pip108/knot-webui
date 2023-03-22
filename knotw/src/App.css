@@ -1,0 +1,14 @@
+@import '~antd/dist/antd.dark.css';
+
+.custom-side {
+    margin-left: -6px;
+}
+
+.side-wrapper {
+    text-align: center;
+}
+
+p.application-info {
+    font-family: DejaVu Sans Mono;
+    font-size: 8pt;
+}

@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+  knot-webui-backend:
+    image: knotw-backend:dev
+    build:
+      context: ./knotw-backend
+    restart: unless-stopped
+    environment:
+      - PORT=7007
+      - WS_PORT=7008
+    ports:
+      - 7007:7007
+      - '3053:53'
+    volumes:
+      - ./knotw-backend/src:/app/src
+      - ./knotw-backend/knot/zones:/var/lib/knot/zones
+  knot-webui-frontend:
+    image: knotw-frontend:dev
+    build:
+      context: ./knotw
+    environment:
+      - WS_URL=ws://localhost:7007/ws
+    ports:
+      - 3000:3000
+    volumes:
+      - ./knotw/src:/app/src
+
+
+

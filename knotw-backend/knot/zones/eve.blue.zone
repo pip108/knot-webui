@@ -1,0 +1,7 @@
+;; Zone dump (Knot DNS 3.1.8)
+eve.blue.           	86400	SOA	eve.blue. hostmaster.eve.blue. 2001063076 21600 3600 604800 86400
+geh.eve.blue.       	86000	A	10.10.10.10
+jahy.eve.blue.      	3600	A	10.1.1.1
+router.eve.blue.    	7200	A	172.16.0.11
+;; Written 4 records
+;; Time 2022-07-01 03:37:43 UTC
